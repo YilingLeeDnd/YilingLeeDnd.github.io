@@ -1,0 +1,12 @@
+table {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #939699;
+    font-family: "Microsoft JhengHei", sans-serif;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #939699;
+}
