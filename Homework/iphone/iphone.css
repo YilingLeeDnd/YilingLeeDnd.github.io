@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+.iphone {
+    position: relative;
+    background-image: url(iPhone-6S-Silver.png);
+    background-position: 150px;
+    height: 500px;
+    width: 550px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+.iphone1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 240px;
+    height: 480px;
+    border-radius: 30px;
+    background-color: white;
+    border: 5px solid gray;
+}
+
+.panel {
+    position: absolute;
+    top: 56px;
+    left: 18px;
+    width: 223px;
+    height: 374px;
+    background-color: #0d0d0d;
+}
+
+.btn {
+    position: absolute;
+    top: 438.1px;
+    left: 110.9px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid #939699;
+}
+
+.earphone {
+    position: absolute;
+    top: 35px;
+    left: 113px;
+    width: 35px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #696868;
+    border: 2px solid #a8a8a8;
+}
+
+.lens1 {
+    position: absolute;
+    top: 20.1px;
+    left: 126px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #504a4a;
+    border: 2px solid #939699;
+}
+
+.lens2 {
+    position: absolute;
+    top: 35px;
+    left: 84px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #504a4a;
+    border: 2px solid #939699;
+}
+
+.power {
+    position: absolute;
+    top: 100px;
+    left: 246.5px;
+    width: 6px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: #b5b8ba;
+    border: 2px solid #6a6a6a;
+}
+
+.volumeup {
+    position: absolute;
+    top: 100px;
+    left: 8px;
+    width: 6px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: #b5b8ba;
+    border: 2px solid #6a6a6a;
+}
+
+.volumedown {
+    position: absolute;
+    top: 143px;
+    left: 8px;
+    width: 6px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: #b5b8ba;
+    border: 2px solid #6a6a6a;
+}
+
+.switch {
+    position: absolute;
+    top: 56.5px;
+    left: 8px;
+    width: 6px;
+    height: 20px;
+    border-radius: 35%;
+    background-color: #b5b8ba;
+    border: 2px solid #6a6a6a;
+}
