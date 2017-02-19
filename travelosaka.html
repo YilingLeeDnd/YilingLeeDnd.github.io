@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>277 台大 HTML/CSS 基礎班</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://wujpkimo.github.io/css/277home.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4"></div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <!--輪播開始-->
+            <div id="slideshow" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <!--輪播圖片或內容-->
+                    <div class="item active">
+                        <img src="/image/osaka1.png">
+                        <p>大阪城入口</p>
+                    </div>
+                    <div class="item">
+                        <img src="/image/osaka2.png">
+                        <p>大阪城-護城河一角</p>
+                    </div>
+                    <div class="item">
+                        <img src="/image/osaka3.png">
+                        <p>大阪城-護城河遊河趣</p>
+                    </div>
+                    <div class="item">
+                        <img src="/image/osaka4.png">
+                        <p>大阪城全景</p>
+                    </div>
+                    <div class="item">
+                        <img src="/image/osaka5.png">
+                        <p>大阪城-鳥橄櫻花園</p>
+                    </div>
+                    <div class="item">
+                        <img src="/image/osaka6.png">
+                        <p>遠眺大阪城</p>
+                    </div>
+                </div>
+                <!--上一頁 下一頁 按鈕-->
+                <div class="control-btn">
+                    <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right" ></span></a>
+                </div>
+                <!--小圓點換頁-->
+                <ol class="carousel-indicators">
+                    <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                    <li data-target="#slideshow" data-slide-to="1"></li>
+                    <li data-target="#slideshow" data-slide-to="2"></li>
+                    <li data-target="#slideshow" data-slide-to="3"></li>
+                    <li data-target="#slideshow" data-slide-to="4"></li>
+                    <li data-target="#slideshow" data-slide-to="5"></li>
+                </ol>
+            </div>
+            <!--輪播結尾-->
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4"></div>
+</body>
+
+</html>

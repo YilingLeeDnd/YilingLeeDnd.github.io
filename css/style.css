@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*首頁*/
+
+ul>li {
+    display: inline-block;
+    left: 200px;
+    top: 10px;
+    padding: 0px 25px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    width: 100%;
+    font-family: "Microsoft JhengHei", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*每個分頁的header*/
+
+header {
+    width: 100%;
+    font-family: "Microsoft JhengHei", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hander-title {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+
+section>div {
+    font-size: 16px;
+}
+
+
+/*about.html表格格式*/
+
+h1 {
+    line-height: 55px;
+    text-align: center;
+    border-style: outset;
+    color: #ff0000;
+    text-shadow: 2px 2px 2px #6c6c6c;
+    background: #f0e2db;
+    background-image: linear-gradient(90deg, #ffbb33 2px, transparent 0), linear-gradient(90deg, #ffbb33 11px, transparent 0), linear-gradient(90deg, #aabb44 23px, transparent 0), linear-gradient(90deg, #665555 20px, transparent 0);
+    background-size: 23px 100%, 41px 100%, 61px 100%, 83px 100%;
+}
+
+table {
+    margin: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #939699;
+    font-family: "Microsoft JhengHei", sans-serif;
+}
+
+td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #939699;
+}
+
+row {
+    margin: -4px -4px;
+}
+
+.about {
+    margin: -4px -4px;
+}
+
+.about1 [class^="col-"] img {
+    width: 100%;
+}
+
+.about1 [class^="col-"] table {
+    width: 100%;
+}
+
+
+/*travel*.html格式設定*/
+
+.td-title {
+    background-color: #f0e2db;
+}
+
+td>img {
+    height: 300px;
+}
+
+.travel-title {
+    text-align: center;
+}
+
+.travel-title>ul>li>a {
+    color: black;
+    font-family: "Microsoft JhengHei", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.travel-title a:link,
+.travel-title a:active,
+.travel-title a:visited {
+    font-size: 16px;
+    font-family: "Microsoft JhengHei";
+    color: black;
+    text-decoration: none;
+}
+
+.travel-title a:hover {
+    color: white;
+    background-color: #ff9700;
+    border-radius: 3px;
+}
+
+.carousel-inner>.item>img {
+    width: 80%;
+    margin: auto;
+}
+
+.travelun {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.item active .item {
+    margin: 0px auto;
+    position: absolute;
+    background-color: white;
+}
+
+
+/*homework.html格式設定*/
+
+.homework-title a:link,
+.homework-title a:active,
+.homework-title a:visited {
+    font-size: 16px;
+    font-family: "Microsoft JhengHei";
+    color: black;
+    text-decoration: none;
+}
+
+.homework-title a:hover {
+    color: white;
+    background-color: #ff9700;
+    border-radius: 3px;
+}
+
+.homework-title>ul>li>a {
+    color: black;
+    font-family: "Microsoft JhengHei", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hander-homework {
+    height: 50px;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.homework-section {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.top {
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    padding: 10px;
+}
+
+.top a:link,
+.top a:active,
+.top a:visited {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #989898;
+    text-decoration: none;
+}
+
+.top a:hover {
+    color: black;
+    font-style: oblique;
+}
